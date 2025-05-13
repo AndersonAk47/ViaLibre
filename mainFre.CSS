@@ -1,0 +1,59 @@
+body{
+    /*background: linear-gradient(to right, white, lightblue, blue); */
+    
+    /*  background: rgba(0, 0, 255, 0.5); Azul semitransparente */
+
+     background: linear-gradient( 140deg, rgba(255, 255, 255, 0.5),rgba(0, 0, 255, 0.5)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK45nqtVM_WrZ-AZ8TY9JM9E9qRY0fFi4FZ7aTY9rpadi8bylDzQi51kto_9Zvt64RNoo&usqp=CAU") ;
+
+    /*   background: conic-gradient(blue, white); */
+
+}
+
+h1{ 
+
+    font-size: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:    0px 20px 20px 400px;
+    
+}
+
+h2{ 
+
+    font-size: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+
+
+
+form{
+    background-color: transparent;
+    padding: 0px 30px 20px 500px;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0px 0px 55px #fff2;
+    margin-top: 50px;
+}   
+
+
+.net {
+    list-style-type: none ;
+}
+
+.net li {
+    padding-left: 40px; 
+    margin-bottom: 20px;
+    background-image: url("https://i.pinimg.com/736x/84/4f/d7/844fd7199ac2facda4df243c4412b7a0.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px; 
+}
+
+
+.enviar{
+    list-style-type: none ;
+}
+
+.enviar{
+    padding-left: 113px;
+    }
