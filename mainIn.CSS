@@ -1,50 +1,71 @@
 
-body{
-    background-color:white;
+body {
+    background-color: white;
+    font-family: sans-serif;
+    line-height: 1.6;
 }
-
 
 #Via {
     background-color: rgb(117, 181, 245);
-    padding:50px 50px 20px 600px;
+    padding: 50px 0;
+    text-align: center;
 }       
 
-img{
-    width: 500px;  
-    margin: 50px 50px 20px 400px;
-    filter: drop-shadow(-10px 10px 15px  blue);
+img {
+    width: 500px;
+    max-width: 100%;
+    display: block;
+    margin: 50px auto;
+    filter: drop-shadow(-10px 10px 15px blue);
 }
 
 
-h1{
+h1 {
     color: blue;
-    font-family: sans-serif;
     margin: 30px;
+    text-align: center;
 }
 
-h1:hover{
+h1:hover {
     color: white;
     background-color: black;
 }
 
 
+
+
 .menu {
-    list-style-type: none; /* Elimina los puntos de la lista */
-    padding: 0; 
-    margin: 0; 
-    display: flex; /* Hace que los elementos sean flexibles (en línea) */
-    gap: 15px; /* Espacio entre elementos (opcional) */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: rgba(117, 181, 245, 0.2);
+    padding: 20px;
 }
 
 
-.menu a{
+.menu li {
+    margin: 0 10px;
+}
+
+
+.menu a {
     text-decoration: none;
-    color: #000; 
-    padding: 5px 55px 10px 100px; 
+    color: #000;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    font-weight: bold;
 }
 
 .menu a:hover {
-    color: white; 
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
     background-color: #000;
+   
 }
+
